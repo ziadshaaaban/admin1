@@ -1,0 +1,138 @@
+header {
+    background-color: var(--color1);
+    font-size: 14pt;
+}
+
+@media (max-width: 760px) {
+    header ul {
+        list-style-type: none;
+    }
+
+    header li {
+        font-family: Muli, Arial, Helvetica, sans-serif;
+        margin-left: 40px;
+    }
+
+
+    header li a {
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    header li img {
+        width: 80px;
+        height: 80px;
+        margin-left: 6em;
+    }
+
+    #brand-name {
+        color: #fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 6px;
+    }
+}
+
+header ul {
+    list-style-type: none;
+    display: inline;
+}
+
+header li {
+    display: inline;
+    font-family: Muli, Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+}
+
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.hea {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    font-size: 1vw;
+
+    @media (max-width: 760px) {
+        display: flex;
+    }
+}
+
+@media (max-width: 760px) {
+    .hea {
+        display: flex;
+        padding: 2px;
+
+    }
+}
+
+.hea:hover {
+    text-decoration: none;
+    color: #04c4ff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    margin-left: 20em;
+    margin-bottom: 10px;
+
+}
+
+.immg {
+    width: 80px;
+    height: 80px;
+    color: #04c4ff;
+    z-index: 50;
+
+    margin-right: 52%;
+
+}
+
+@media (max-width: 768px) {
+    .immg {
+        margin-left: auto;
+    }
+}
+
+
+
+.immgg {
+    width: 80px;
+    height: 80px;
+    color: #04c4ff;
+    z-index: 50;
+
+    margin-left: 40vh;
+
+}
+
+@media (max-width: 768px) {
+    .immgg {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+#brand-name {
+    margin-left: 50px;
+    margin-right: 0px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 6px;
+
+
+
+
+}
